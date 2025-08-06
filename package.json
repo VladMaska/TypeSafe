@@ -1,0 +1,25 @@
+{
+    "name": "type-safe-json-db",
+    "version": "1.0.0",
+    "description": "Minimal strongly-typed JSON database in TypeScript.",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "ts-node example/index.ts",
+        "build": "tsc",
+        "start": "node dist/example/index.js"
+    },
+    "keywords": [
+        "typescript",
+        "json",
+        "database",
+        "file",
+        "nosql"
+    ],
+    "author": "Vlad Maska",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/node": "^24.2.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.3.3"
+    }
+}
